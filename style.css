@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    font-family: arial;
+    border: border-box;
+}
+.navbar{
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-logo img{
+    width: 100px;
+    height: 48px;
+    padding-top: 10px;
+    background-size: cover;
+    background-image: none;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px  solid white;
+}
+.nav-addy{
+    color: rgb(219, 214, 214);
+    padding-left: 20px; 
+}
+.nav-country{
+    font-size: 1rem;
+}
+.nav-search{
+    display: flex;
+    width:580px;
+    height: 35px;
+    border-radius: 4px;
+    background-color: rgb(241, 171, 183);
+}
+.nav-select{
+    background-color:rgb(188, 185, 185) ;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+    width: 40px;
+}
+.nav-input{
+    width: 500px;
+    border: none;
+}
+.find-icon{
+    width: 30px;
+    background-color: rgb(245, 175, 95);
+    color: black;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 4px rgb(255, 115, 0);
+}
+.sign-span{
+    font-size: 0.85rem;
+}
+.nav-cart{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cart-icon {
+ font-size: 2rem;
+
+}
+.cart-span{
+    font-size: 1rem;
+}
+
+/* panel section */
+.nav-panel{
+    height:40px;
+    background-color: rgb(18, 18, 18);
+    display: flex;
+    align-items: center;
+    color: white;
+}
+.panel-op {
+    width: 40px;
+    padding-left: 70px;
+    color: rgb(192, 218, 248);
+    font-size: 1rem;
+}
+
+.panel-list{
+    padding-left: 50px;
+    color: white;
+}
+.panel-list ul{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+} 
+ul a{
+     display: flex;
+    flex-direction: row; 
+    text-decoration: none;
+    color: rgb(190, 217, 248);
+}
+.panel-deals{
+    color: rgb(190, 217, 248);
+    padding-left: 600px;
+}
+
+/* hero section */
+ .hero-section{
+    position: relative;
+    display: flex;
+    align-items:center; 
+    justify-content: center;  
+} 
+.hero-section img{
+    height: 300px;
+    width: 100%; 
+} 
+.hero-textbox {
+    width:90%;
+    height: 35px;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    padding: 5px 5px;
+    background-color:white;
+    color:black;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1rem;
+}
+.hero-textbox a{
+color: rgb(109, 141, 237);
+text-decoration: none;
+}
+
+/* shopping section */
+.card-section{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(2,1fr);
+    background-color: rgb(210, 208, 208);
+    row-gap: 15px;
+    column-gap: 20px;
+    padding-left: 20px;
+    padding-right: 50px;
+}
+.card{
+    background-color: white;
+    width: 320px;
+    height: 400px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.card img{
+    width: 300px;
+    height: 300px;
+    padding: 10px 0px;
+}
+.card-text{
+    font-size: 1rem;
+    color: rgb(4, 57, 75);
+    font-weight: 700;
+}
+
+/* footer */
+.footer-first{
+    height: 40px;
+    background-color: rgb(27, 25, 25);
+    color: rgb(232, 240, 243);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer-second{
+    background-color: rgb(2, 34, 40);
+    color: white;
+    height:370px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-top: 20px;
+}
+ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+}
+.footer-third{
+    height: 70px;
+    background-color:rgb(9, 57, 66); 
+    color: white;
+    border-color:  white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+.footer-third img{
+    width: 120px;
+    height: 80px;  
+}
+.button-language{
+    width:80px;
+    height: 30px;
+    border-radius:3px;
+    background-color:rgb(2, 34, 40);
+    color: white;
+    border-color: antiquewhite;
+    margin-left: 40px;
+}
+.button-currency{
+    width:140px;
+    height: 30px;
+    border-radius:3px;
+    background-color:rgb(2, 34, 40);
+    color: white;
+    border-color: antiquewhite;
+}
+.button-US{
+    width:120px;
+    height: 30px;
+    border-radius:3px;
+    background-color:rgb(2, 34, 40);
+    color: white;
+    border-color: antiquewhite;
+}
+
